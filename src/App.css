@@ -1,38 +1,58 @@
-.App {
+.div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background: #fff !important;
+  box-shadow: none !important;
+  padding-block: 20px;
+  color: #1C163C;
+}
+
+.header-menu-section {
+  
+}
+
+.menu-buttons{
+  color: #1C163C !important;
+  text-transform:none !important;
+  font-family: Inter !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 21.78px !important;
+  letter-spacing: 0%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-right-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #1C163C;
 }
 
-.App-link {
-  color: #61dafb;
+.signin {
+  color: #FFC700;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-inline: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup {
+  border: 1.8px solid #715DE3;
+  color: #715DE3;
+  width: 124px;
+  height: 50px;
+  border-radius: 12px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 0%;
+  text-align: center;
+
 }
