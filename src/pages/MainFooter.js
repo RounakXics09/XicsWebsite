@@ -20,9 +20,9 @@ function MainFooter() {
 
   return (
     <Box>
-      <Grid2 container sx={{ margin: '20px',paddingBottom:'20px' , borderBottom:'1px solid #1767FE' }}>
+      <Grid2 container sx={{ margin: '20px', paddingBottom: '20px', borderBottom: '1px solid #1767FE' }}>
         <Grid2 item size={{ xs: 6, md: 4, lg: 4, xl: 4 }}>
-          <div style={{paddingBottom:'15px'}}>
+          <div style={{ paddingBottom: '15px' }}>
             <img src={Logo} alt="Logo" />
           </div>
           <div className='footer-inner' style={{ width: '80%' }}>
@@ -36,7 +36,7 @@ function MainFooter() {
                   className='footer-menu-buttons'
                   sx={{ my: 2 }}
                 >
-                    <img src={page.link_url} alt="Logo" />
+                  <img src={page.link_url} alt="Logo" />
                 </div>
               ))}
             </Box>

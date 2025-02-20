@@ -9,7 +9,11 @@ function Sponsers() {
   return (
     <Box className="sponser-container">
       <div className='our-sponser'>
-        Our Sponsors
+        <span style={{paddingRight:'10px'}}>Our</span>
+        <span style={{position:'relative'}}>
+          Sponsors
+          <span style={{ background: '#FFDC60', height: '10px', width: '100%',display:'flex',position:'absolute',right:0,bottom:'10px',zIndex:'-1' }}></span>
+        </span>
       </div>
       <div className='our-sponser-text'>
         We are blessed to work with leading brands & Companies
