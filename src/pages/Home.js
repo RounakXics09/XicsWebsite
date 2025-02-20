@@ -1,9 +1,14 @@
+import { Box } from '@mui/material'
 import React from 'react'
-import Header from './MainHeader'
+import MainContent from '../widgets/homeComponents/MainContent'
+import Sponsers from '../widgets/homeComponents/Sponsers'
 
 function Home() {
   return (
-    <Header />
+    <Box>
+      {/* <MainContent /> */}
+      <Sponsers />
+    </Box>
   )
 }
 

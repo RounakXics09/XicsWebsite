@@ -1,0 +1,35 @@
+import { Box } from '@mui/material'
+import React from 'react'
+import Logo1 from '../../assets/Logo1.svg';
+import Logo2 from '../../assets/Logo2.svg';
+import Logo3 from '../../assets/Logo3.svg';
+import Logo4 from '../../assets/Logo4.svg';
+
+function Sponsers() {
+  return (
+    <Box className="sponser-container">
+      <div className='our-sponser'>
+        Our Sponsors
+      </div>
+      <div className='our-sponser-text'>
+        We are blessed to work with leading brands & Companies
+      </div>
+      <div className='sponsers-image'>
+        <div>
+          <img src={Logo1} alt="Logo1" />
+        </div>
+        <div>
+          <img src={Logo2} alt="Logo2" />
+        </div>
+        <div>
+          <img src={Logo3} alt="Logo3" />
+        </div>
+        <div>
+          <img src={Logo4} alt="Logo4" />
+        </div>
+      </div>
+    </Box>
+  )
+}
+
+export default Sponsers

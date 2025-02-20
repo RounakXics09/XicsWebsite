@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css';
-import MainHeader from './pages/MainHeader';
+import MainLayout from './pages/MainLayout';
 
 function App() {
   return (
     <>
-    <MainHeader />
+    <MainLayout />
     </>
   );
 }
