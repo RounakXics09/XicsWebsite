@@ -5,9 +5,16 @@ import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Logo from '../assets/logo.svg';
+import { Link } from 'react-router-dom';
 
 
-const pages = ['Home', 'About', 'Service', 'Blog', 'Contact'];
+const pages = [
+    { name: 'Home', link: '' },
+    { name: 'About', link: 'about' },
+    { name: 'Service', link: 'service' },
+    { name: 'Blog', link: 'blog' },
+    { name: 'Contact', link: '' }
+];
 
 function MainHeader() {
 
@@ -19,13 +26,13 @@ function MainHeader() {
                     <img src={Logo} alt="Logo" />
 
                     <Box className="div-center header-menu-section" sx={{ flexGrow: 1 }}>
-                        {pages.map((page) => (
+                        {pages.map((e, i) => (
                             <Button
-                                key={page}
+                                key={i}
                                 className='menu-buttons'
                                 sx={{ my: 2 }}
                             >
-                                {page}
+                                <Link to={'/' + e.link} style={{textDecoration:'none', color:'#1C163C'}}>{e.name}</Link>
                             </Button>
                         ))}
                     </Box>

@@ -20,16 +20,16 @@ function Sponsers() {
       </div>
       <div className='sponsers-image'>
         <div>
-          <img src={Logo1} alt="Logo1" />
+          <img src={Logo1} alt="Logo1" style={{width:'100%',height:'100%'}} />
         </div>
         <div>
-          <img src={Logo2} alt="Logo2" />
+          <img src={Logo2} alt="Logo2" style={{width:'100%',height:'100%'}} />
         </div>
         <div>
-          <img src={Logo3} alt="Logo3" />
+          <img src={Logo3} alt="Logo3" style={{width:'100%',height:'100%'}} />
         </div>
         <div>
-          <img src={Logo4} alt="Logo4" />
+          <img src={Logo4} alt="Logo4" style={{width:'100%',height:'100%'}} />
         </div>
       </div>
     </Box>

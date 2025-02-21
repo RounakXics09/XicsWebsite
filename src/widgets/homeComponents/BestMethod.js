@@ -3,6 +3,7 @@ import React from 'react'
 import TaskCards from '../../components/TaskCards'
 import Method1 from '../../assets/Method1.svg';
 import Method2 from '../../assets/Method2.svg';
+import Play from '../../assets/Play.svg'
 
 const pages = [
   { name: 'Task' },
@@ -19,7 +20,7 @@ function BestMethod() {
       <Grid2 container >
         <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }}>
           <div className='method-heading'>
-            <span style={{ paddingRight: '10px' }}>Our</span>
+            <span style={{ paddingRight: '10px' }} >Our</span>
             <span style={{ position: 'relative' }}>
               Best Method
               <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
@@ -50,7 +51,7 @@ function BestMethod() {
         })}
       </Grid2>
 
-      <Grid2 container sx={{py:8}}>
+      <Grid2 container sx={{ py: 8 }}>
         <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
           <div style={{ paddingBottom: '15px' }}>
             <img src={Method1} alt="Logo" />
@@ -68,7 +69,17 @@ function BestMethod() {
             <span>For Your Company</span>
           </div>
           <div className='method-heading-side'>
-            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+          </div>
+
+          <div className='method-btn-container'>
+            <div className='btn-free'>
+              Get started for free
+            </div>
+            <div className='btn-play'>
+              <img src={Play} alt="Logo1" />
+              <span style={{ paddingLeft: '10px' }}>Play video</span>
+            </div>
           </div>
         </Grid2>
       </Grid2>
@@ -86,7 +97,7 @@ function BestMethod() {
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
           </div>
         </Grid2>
-        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
+        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }} className='div-center'>
           <div style={{ paddingBottom: '15px' }}>
             <img src={Method2} alt="Logo" />
           </div>
