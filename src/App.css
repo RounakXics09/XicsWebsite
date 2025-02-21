@@ -344,6 +344,68 @@
 
 /* news letter end */
 
+.method-container {
+  padding: 50px 20px 20px 20px;
+}
+
+.method-heading {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 62px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.side-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.method-heading-side {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+  width: 80%;
+}
+
+.method-task-card-container {
+  margin-top: 80px;
+}
+
+/* best method end */
+
+.taskcard-container {
+  padding: 20px;
+  width: 80%;
+  background: #F9F6FD;
+  border-radius: 25px;
+}
+
+.task-card-heading {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 62px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.task-card-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+}
+
+/* taskcard end */
+
 
 /* width */
 ::-webkit-scrollbar {

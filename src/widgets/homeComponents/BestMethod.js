@@ -1,8 +1,98 @@
+import { Box, Grid2 } from '@mui/material'
 import React from 'react'
+import TaskCards from '../../components/TaskCards'
+import Method1 from '../../assets/Method1.svg';
+import Method2 from '../../assets/Method2.svg';
+
+const pages = [
+  { name: 'Task' },
+  { name: 'Task2' },
+  { name: 'Task3' },
+  { name: 'Task4' },
+  { name: 'Task5' },
+  { name: 'Task6' }
+];
 
 function BestMethod() {
   return (
-    <div>BestMethod</div>
+    <Box className="method-container">
+      <Grid2 container >
+        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }}>
+          <div className='method-heading'>
+            <span style={{ paddingRight: '10px' }}>Our</span>
+            <span style={{ position: 'relative' }}>
+              Best Method
+              <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
+            </span>
+          </div>
+          <div className='method-heading'>
+            <span>For Your Company</span>
+          </div>
+        </Grid2>
+        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }} className='side-heading-container'>
+          <div className='method-heading-side'>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+          </div>
+        </Grid2>
+      </Grid2>
+
+      <Grid2 container className='div-center method-task-card-container' rowSpacing={2}>
+        {pages.map((e, i) => {
+          return (
+            <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center' spa>
+              <TaskCards key={i} data={{
+                name: 'Task Management',
+                description: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was',
+                imageId: e.name
+              }} />
+            </Grid2>
+          )
+        })}
+      </Grid2>
+
+      <Grid2 container sx={{py:8}}>
+        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
+          <div style={{ paddingBottom: '15px' }}>
+            <img src={Method1} alt="Logo" />
+          </div>
+        </Grid2>
+        <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }}>
+          <div className='method-heading'>
+            <span style={{ paddingRight: '10px' }}>Perfect</span>
+            <span style={{ position: 'relative' }}>
+              Solution
+              <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
+            </span>
+          </div>
+          <div className='method-heading'>
+            <span>For Your Company</span>
+          </div>
+          <div className='method-heading-side'>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+          </div>
+        </Grid2>
+      </Grid2>
+
+      <Grid2 container>
+        <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }}>
+          <div className='method-heading'>
+            <span style={{ paddingRight: '10px' }}>You Will Get Best Quality</span>
+            <span style={{ position: 'relative' }}>
+              Services
+              <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
+            </span>
+          </div>
+          <div className='method-heading-side'>
+            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+          </div>
+        </Grid2>
+        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
+          <div style={{ paddingBottom: '15px' }}>
+            <img src={Method2} alt="Logo" />
+          </div>
+        </Grid2>
+      </Grid2>
+    </Box>
   )
 }
 

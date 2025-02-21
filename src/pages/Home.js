@@ -13,7 +13,7 @@ function Home() {
     <Box className='width-100'>
       <MainContent />
       <Sponsers />
-      {/* <BestMethod /> */}
+      <BestMethod />
       {/* <LatestWork /> */}
       {/* <OurTeam /> */}
       {/* <ClientReview /> */}
