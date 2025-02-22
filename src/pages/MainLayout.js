@@ -1,19 +1,28 @@
 import React from 'react'
-import MainHeader from './MainHeader'
-import Home from './Home'
-import MainFooter from './MainFooter'
-import { Box } from '@mui/material'
+import Blog from './Blog';
+import About from './About';
+import Contact from './Contact';
+import Service from './Service';
+import ErrPage from './ErrPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MainHeader from './MainHeader';
+import MainFooter from './MainFooter';
+import Home from './Home';
 
 function MainLayout() {
     return (
-        <Box>
+        <BrowserRouter>
             <MainHeader />
-            <div style={{paddingBlock:'50px'}}>
-            <Home />
-            </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/service" element={<Service />} />
+                <Route path="*" element={<ErrPage />} />
+            </Routes>
             <MainFooter />
-        </Box>
-
+        </BrowserRouter>
     )
 }
 

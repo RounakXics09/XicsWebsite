@@ -2,7 +2,7 @@ import React from 'react'
 
 function ErrPage() {
   return (
-    <div>ErrPage</div>
+    <div>No Route Found</div>
   )
 }
 
