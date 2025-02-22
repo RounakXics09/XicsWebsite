@@ -52,9 +52,9 @@ function BestMethod() {
       </Grid2>
 
       <Grid2 container sx={{ py: 8 }}>
-        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
-          <div style={{ paddingBottom: '15px' }}>
-            <img src={Method1} alt="Logo" />
+        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }} className='div-center'>
+          <div style={{ paddingRight: '50px' }}>
+            <img src={Method1} alt="Logo" style={{ width: '100%', height: '100%' }} />
           </div>
         </Grid2>
         <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }}>
@@ -85,7 +85,7 @@ function BestMethod() {
       </Grid2>
 
       <Grid2 container>
-        <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }}>
+        <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }} >
           <div className='method-heading'>
             <span style={{ paddingRight: '10px' }}>You Will Get Best Quality</span>
             <span style={{ position: 'relative' }}>
@@ -93,13 +93,34 @@ function BestMethod() {
               <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
             </span>
           </div>
-          <div className='method-heading-side'>
-            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
+
+          <div style={{ display: 'flex', alignItems: 'center',paddingTop:'50px' }}>
+            <div style={{ width: '74px', height: '74px', paddingRight: '20px' }}>
+              <div style={{ width: '74px', height: '74px', borderRadius: '39px', background: '#715DE3' }}></div>
+            </div>
+            <div className=''>
+              <div className='best-text'>Dedicated Team</div>
+              <div className='best-description'>
+                There are many variations of passages of Lorem Ipsum available, but the majority have
+              </div>
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', alignItems: 'center',paddingTop:'30px' }}>
+            <div style={{ width: '74px', height: '74px', paddingRight: '20px' }}>
+              <div style={{ width: '74px', height: '74px', borderRadius: '39px', background: '#715DE3' }}></div>
+            </div>
+            <div className=''>
+              <div className='best-text'>24/7 Hours Support</div>
+              <div className='best-description'>
+                There are many variations of passages of Lorem Ipsum available, but the majority have
+              </div>
+            </div>
           </div>
         </Grid2>
         <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }} className='div-center'>
           <div style={{ paddingBottom: '15px' }}>
-            <img src={Method2} alt="Logo" />
+            <img src={Method2} alt="Logo" style={{ width: '100%', height: '100%' }} />
           </div>
         </Grid2>
       </Grid2>
