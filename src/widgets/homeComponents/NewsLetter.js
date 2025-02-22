@@ -37,7 +37,7 @@ function NewsLetter() {
                     </div>
                 </Grid2>
                 <Grid2 item size={{ xs: 6, md: 3, lg: 3, xl: 3 }}>
-                    <img src={Envelop} alt="Envelop" />
+                    <img src={Envelop} alt="Envelop" style={{width:'100%',height:'100%'}} />
                 </Grid2>
             </Grid2>
         </Box>

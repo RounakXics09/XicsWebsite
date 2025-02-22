@@ -210,9 +210,15 @@
   padding-top: 50px;
 }
 
+.main-content-text-container-all {
+  width: 100%;
+}
+
 .main-content-text-container {
-  width: 60%;
+  width: 70%;
   text-align: center;
+  display: inline;
+  align-items: center;
 }
 
 .main-content-text {
@@ -248,7 +254,7 @@
   letter-spacing: 0%;
   text-align: center;
   color: #645E80;
-  width: 40%;
+  width: 80%;
   padding-top: 20px;
 }
 
@@ -308,7 +314,7 @@
 .news-letter-container {
   background: #9786F8;
   width: 100%;
-  height: 384px;
+  height: auto;
   padding: 60px;
   border-radius: 30px;
   margin: 20px;
@@ -413,6 +419,25 @@
 
 .method-task-card-container {
   margin-top: 80px;
+}
+
+.best-text {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #000000;
+}
+
+.best-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+  padding-top: 10px;
 }
 
 /* best method end */
