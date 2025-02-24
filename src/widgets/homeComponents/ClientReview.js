@@ -58,7 +58,7 @@ function ClientReview() {
             </div>
           </div>
         </Grid2>
-        <Grid2 item size={{ xs: 4, md: 4, lg: 4, xl: 4 }}>
+        <Grid2 item size={{ xs: 4, md: 4, lg: 4, xl: 4 }} style={{display:'flex',justifyContent:'flex-end'}}>
           <div className='review-award div-center d-flex-col'>
             <div className='award-text'>
               Great Design!
