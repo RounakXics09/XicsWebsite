@@ -1,48 +1,9 @@
 import { Box, Grid2 } from '@mui/material'
 import React from 'react'
 import PricingCard from '../../components/PricingCard';
+import StandardPricingCard from '../../components/StandardPricingCard';
+import PremiumPricingCard from '../../components/PremiumPricingCard';
 
-const pages = [
-    {
-        name: 'Basic Plan',
-        price: '59',
-        plan_details:
-            [
-                '30h Fast generations',
-                'Unlimited Relaxed generations',
-                'General commercial terms',
-                'Access to member gallery',
-                'Optional credit top ups',
-                '3 concurrent fast jobs'
-            ]
-    },
-    {
-        name: 'Standard Plan',
-        price: '59',
-        plan_details:
-            [
-                '30h Fast generations',
-                'Unlimited Relaxed generations',
-                'General commercial terms',
-                'Access to member gallery',
-                'Optional credit top ups',
-                '3 concurrent fast jobs'
-            ]
-    },
-    {
-        name: 'Premium',
-        price: '59',
-        plan_details:
-            [
-                '30h Fast generations',
-                'Unlimited Relaxed generations',
-                'General commercial terms',
-                'Access to member gallery',
-                'Optional credit top ups',
-                '3 concurrent fast jobs'
-            ]
-    }
-];
 
 function OurPricing() {
     return (
@@ -61,13 +22,17 @@ function OurPricing() {
                 But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
             </div>
             <Grid2 container className='div-center method-task-card-container' rowSpacing={2} columnSpacing={5}>
-                {pages.map((e, i) => {
-                    return (
-                        <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center'>
-                            <PricingCard key={i} data={e} />
-                        </Grid2>
-                    )
-                })}
+
+                <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center'>
+                    <PricingCard />
+                </Grid2>
+                <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center'>
+                    <StandardPricingCard />
+                </Grid2>
+                <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center'>
+                    <PremiumPricingCard />
+                </Grid2>
+
             </Grid2>
         </Box>
     )

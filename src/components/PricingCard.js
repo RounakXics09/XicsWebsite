@@ -1,20 +1,27 @@
 import { Box, Grid2 } from '@mui/material'
 import React, { useEffect } from 'react'
-import Play from '../assets/Play.svg'
+import Play from '../assets/Like.svg'
+import Check from '../assets/Check.svg'
 
-function PricingCard(props) {
+const lists =
+    [
+        '30h Fast generations',
+        'Unlimited Relaxed generations',
+        'General commercial terms',
+        'Access to member gallery',
+        'Optional credit top ups',
+        '3 concurrent fast jobs'
+    ]
 
-    useEffect(() => {
-        console.log("props", props)
-    }, [])
+function PricingCard() {
 
     return (
         <Box className="pricing-card-container">
             <Grid2 container className="price-cards">
-                    <img src={Play} alt="Logo1" />
-                    <div className='plan-text'>{props.data.name}</div>
+            <img src={Play} alt="Logo" />
+                <div className='plan-text'>Basic Plan</div>
                 <Grid2 className='div-center'>
-                    <div className='plan-text-price'>${props.data.price}</div>
+                    <div className='plan-text-price'>$59</div>
                     <div className='plan-text-duration'>/month</div>
                 </Grid2>
                 <Grid2>
@@ -26,14 +33,14 @@ function PricingCard(props) {
                 </Grid2>
                 <Grid2>
                     {
-                    props.data.plan_details.map((e,i) => {
-                        return(
-                        <div key={i} className='plan-text-detail'>
-                            <img src={Play} alt="Logo1" />
-                            <div>{e}</div>
-                        </div>
-                        )
-                    })
+                        lists.map((e, i) => {
+                            return (
+                                <div key={i} className='plan-text-detail'>
+                                    <img src={Check} alt="Logo1" />
+                                    <div>{e}</div>
+                                </div>
+                            )
+                        })
                     }
                 </Grid2>
                 <Grid2>
