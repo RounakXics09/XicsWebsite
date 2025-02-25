@@ -8,6 +8,8 @@ import Emp1 from '../assets/emp1.svg'
 import Emp2 from '../assets/emp2.svg'
 import Emp3 from '../assets/emp3.svg'
 import CommonHeaderContent from '../components/CommonHeaderContent'
+import DigitalProducts from '../widgets/aboutUs/DigitalProducts'
+import PerfectSolution from '../widgets/aboutUs/PerfectSolution'
 
 const pages1 = [
   {
@@ -46,6 +48,8 @@ function About() {
   return (
     <Box className='width-100'>
       <CommonHeaderContent data={{ linkName: 'Home /  About us', name: 'About Us', description: 'Powerful project management tools for your companies of all sizes.' }} />
+      <DigitalProducts />
+      <PerfectSolution />
       <OurTeam data={{ pages1 }} />
       <ClientReview />
       <Sponsers />

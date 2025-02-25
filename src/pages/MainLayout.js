@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainHeader from './MainHeader';
 import MainFooter from './MainFooter';
 import Home from './Home';
+import BlogDetails from './BlogDetails';
+import ServiceDetails from './ServiceDetails';
 
 function MainLayout() {
     return (
@@ -15,10 +17,12 @@ function MainLayout() {
             <MainHeader />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/blog" element={<Blog />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
                 <Route path="/service" element={<Service />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/blog/details" element={<BlogDetails />} />
+                <Route path="/service/details" element={<ServiceDetails />} />
                 <Route path="*" element={<ErrPage />} />
             </Routes>
             <MainFooter />
