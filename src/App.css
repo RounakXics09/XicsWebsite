@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+.div-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .d-flex-col {
   flex-direction: column;
 }
@@ -676,7 +682,85 @@
 }
 
 /* common header content */
+
+.about-content-text-container {
+  width: 80%;
+  text-align: center;
+  display: inline;
+  align-items: center;
+}
+
+.about-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+}
+
 /* about page end */
+
+.pricing-card-container {}
+
+.price-cards {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 23.9px 0px #00000014;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px 20px 30px 20px;
+}
+
+.plan-text {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2%;
+  color: #1D2127;
+}
+
+.plan-text-price {
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 43.57px;
+  letter-spacing: 2%;
+  color: #1D2127;
+}
+
+.plan-text-duration {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20.57px;
+  letter-spacing: 2%;
+  color: #1D2127;
+}
+
+.plan-text-desc {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 0%;
+  color: #B9BEC1;
+}
+
+.plan-text-detail {
+  display: flex;
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #1D2127
+}
+
+/* services page end  */
 
 /* width */
 ::-webkit-scrollbar {

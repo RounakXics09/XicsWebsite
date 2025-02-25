@@ -40,7 +40,7 @@ function BestMethod() {
       <Grid2 container className='div-center method-task-card-container' rowSpacing={2}>
         {pages.map((e, i) => {
           return (
-            <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center' spa>
+            <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='div-center'>
               <TaskCards key={i} data={{
                 name: 'Task Management',
                 description: 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was',
