@@ -28,7 +28,7 @@ function OurTeam(props) {
         {
           props.data.pages1.map((e, i) => {
             return (
-              <Grid2 key={i} item size={{ xs: 4, md: 4, lg: 4, xl: 4 }}>
+              <Grid2 key={i} item size={{ xs: 12,sm:12, md: 4, lg: 4, xl: 4 }}>
                 <CommonCard data={{ ...e }} />
               </Grid2>
             )

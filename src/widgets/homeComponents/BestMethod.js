@@ -18,7 +18,7 @@ function BestMethod() {
   return (
     <Box className="method-container">
       <Grid2 container >
-        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }}>
+        <Grid2 item size={{ xs: 12, md: 6, lg: 6, xl: 6 }}>
           <div className='method-heading'>
             <span style={{ paddingRight: '10px' }} >Our</span>
             <span style={{ position: 'relative' }}>
@@ -30,7 +30,7 @@ function BestMethod() {
             <span>For Your Company</span>
           </div>
         </Grid2>
-        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }} className='side-heading-container'>
+        <Grid2 item size={{ xs: 12, md: 6, lg: 6, xl: 6 }} className='side-heading-container'>
           <div className='method-heading-side'>
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
           </div>

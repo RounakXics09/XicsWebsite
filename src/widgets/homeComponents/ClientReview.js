@@ -23,7 +23,7 @@ function ClientReview() {
       </Grid2>
 
       <Grid2 container>
-        <Grid2 item size={{ xs: 8, md: 8, lg: 8, xl: 8 }} className='review-text-container'>
+        <Grid2 item size={{ xs: 12,sm:12, md: 8, lg: 8, xl: 8 }} className='review-text-container'>
           <div>
             <img src={FullEmp} alt="Logo1" />
           </div>
@@ -58,7 +58,7 @@ function ClientReview() {
             </div>
           </div>
         </Grid2>
-        <Grid2 item size={{ xs: 4, md: 4, lg: 4, xl: 4 }} style={{display:'flex',justifyContent:'flex-end'}}>
+        <Grid2 item size={{ xs: 12,sm:12, md: 4, lg: 4, xl: 4 }} style={{display:'flex',justifyContent:'flex-end'}}>
           <div className='review-award div-center d-flex-col'>
             <div className='award-text'>
               Great Design!

@@ -36,23 +36,23 @@ function LatestWork() {
               className='menu-buttons'
               sx={{ my: 2 }}
             >
-              <Link to={'/' + e.link} style={{ textDecoration: 'none',color:'#7F7A9A' }}>{e.name}</Link>
+              <Link to={'/' + e.link} style={{ textDecoration: 'none', color: '#7F7A9A' }}>{e.name}</Link>
             </Button>
           ))}
         </Box>
       </Grid2>
       <Grid2 container rowSpacing={8} columnSpacing={5}>
-        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }} className='div-center'>
-          <img src={Purple} alt="Logo"  style={{width:'100%',height:'100%'}} />
+        <Grid2 item size={{ xs: 12, sm: 12, md: 6, lg: 6, xl: 6 }} className='div-center'>
+          <img src={Purple} alt="Logo" style={{ width: '100%', height: '100%' }} />
         </Grid2>
-        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }} className='div-center'>
-          <img src={Yellow} alt="Logo"  style={{width:'100%',height:'100%'}} />
+        <Grid2 item size={{ xs: 12, sm: 12, md: 6, lg: 6, xl: 6 }} className='div-center'>
+          <img src={Yellow} alt="Logo" style={{ width: '100%', height: '100%' }} />
         </Grid2>
-        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }} className='div-center'>
-          <img src={Blue} alt="Logo"  style={{width:'100%',height:'100%'}} />
+        <Grid2 item size={{ xs: 12, sm: 12, md: 6, lg: 6, xl: 6 }} className='div-center'>
+          <img src={Blue} alt="Logo" style={{ width: '100%', height: '100%' }} />
         </Grid2>
-        <Grid2 item size={{ xs: 6, md: 6, lg: 6, xl: 6 }} className='div-center'>
-          <img src={Pink} alt="Logo"  style={{width:'100%',height:'100%'}} />
+        <Grid2 item size={{ xs: 12, sm: 12, md: 6, lg: 6, xl: 6 }} className='div-center'>
+          <img src={Pink} alt="Logo" style={{ width: '100%', height: '100%' }} />
         </Grid2>
       </Grid2>
       <Grid2 className='div-center p-block-50'>

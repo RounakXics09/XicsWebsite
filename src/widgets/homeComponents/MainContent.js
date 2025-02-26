@@ -14,7 +14,7 @@ function MainContent() {
     <Box className="main-content-container">
 
       <div className='main-content-text-container-all div-center position-relative'>
-        <div style={{ position: 'absolute', bottom: '0px', left: '0px' }}>
+        <div className='display-sm-none' style={{ position: 'absolute', bottom: '0px', left: '0px' }}>
           <img src={PurpleSnake} alt="Logo1" />
         </div>
 
@@ -24,13 +24,13 @@ function MainContent() {
           <span className='main-content-text'>Analytics Tool For Your Engagement</span>
         </div>
 
-        <div style={{ position: 'absolute', bottom: '0px', right: '0px' }}>
+        <div className='display-sm-none' style={{ position: 'absolute', bottom: '0px', right: '0px' }}>
           <img src={YellowSnake} alt="Logo1" />
         </div>
       </div>
 
       <div style={{display:'flex',flexDirection:'row',alignItems:'center'}}>
-        <div>
+        <div className='display-sm-none'>
           <img src={M} alt="M" style={{ width: 'inherit' }} />
         </div>
 
@@ -54,19 +54,19 @@ function MainContent() {
           </div>
         </div>
 
-        <div>
+        <div className='display-sm-none'>
           <img src={N} alt="N" style={{ width: 'inherit' }} />
         </div>
       </div>
 
-      <div style={{ marginTop: '-50px', position: 'relative', width: '100%', display: 'flex', justifyContent: 'space-between' }}>
-        <div style={{}}>
+      <div className='display-sm-none' style={{ marginTop: '-50px', position: 'relative', width: '100%', display: 'flex', justifyContent: 'space-between' }}>
+        <div>
           <img src={O} alt="O" style={{ width: '100%', height: '100%' }} />
         </div>
-        <div style={{}}>
+        <div>
           <img src={R} alt="R" style={{ width: '100%', height: '100%', paddingTop: '50px' }} />
         </div>
-        <div style={{}}>
+        <div>
           <img src={P} alt="P" style={{ width: '100%', height: '100%' }} />
         </div>
       </div>

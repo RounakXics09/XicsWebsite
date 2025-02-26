@@ -25,7 +25,7 @@ function MainHeader() {
                 <Toolbar disableGutters>
                     <img src={Logo} alt="Logo" />
 
-                    <Box className="div-center header-menu-section" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex', xl: 'flex' } }}>
+                    <Box className="div-center header-menu-section display-sm-none" sx={{ flexGrow: 1}}>
                         {pages.map((e, i) => (
                             <Button
                                 key={i}
@@ -37,7 +37,7 @@ function MainHeader() {
                         ))}
                     </Box>
 
-                    <Box className="header-right-section div-center">
+                    <Box className="header-right-section div-center display-sm-none">
                         <div className='signin'>
                             Sign In
                         </div>

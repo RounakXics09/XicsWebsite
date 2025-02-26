@@ -8,7 +8,7 @@ function NewsLetter() {
     return (
         <Box className="div-center">
             <Grid2 container className='news-letter-container'>
-                <Grid2 item size={{ xs: 6, md: 9, lg: 9, xl: 9 }}>
+                <Grid2 item size={{ xs: 12, md: 9, lg: 9, xl: 9 }}>
                     <div className='news-heading'>
                         <span style={{paddingRight:'10px'}}>Subscribe To Our</span>
                         <span style={{ position: 'relative' }}>
@@ -36,7 +36,7 @@ function NewsLetter() {
                         <div className='news-button'>Subscribe Now</div>
                     </div>
                 </Grid2>
-                <Grid2 item size={{ xs: 6, md: 3, lg: 3, xl: 3 }}>
+                <Grid2 item size={{ xs: 12, md: 3, lg: 3, xl: 3 }}>
                     <img src={Envelop} alt="Envelop" style={{width:'100%',height:'100%'}} />
                 </Grid2>
             </Grid2>

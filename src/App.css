@@ -474,6 +474,7 @@
   width: 80%;
   background: #F9F6FD;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .task-card-heading {
@@ -576,6 +577,7 @@
 
 .review-text-container {
   display: flex;
+  flex-direction: row;
 }
 
 .review-text {
@@ -811,3 +813,101 @@
 }
 
 /* comon cards ends*/
+
+.service-detail-heading {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.41px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.service-detail-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+}
+
+/* service details end */
+
+
+@media only screen and (max-width: 768px) {
+
+  .main-content-text-container {
+    width: 90%;
+    text-align: center;
+    display: grid;
+    align-items: center;
+  }
+
+  .main-content-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1C163C;
+  }
+
+  .main-content-span {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .our-sponser {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  .news-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .news-text-field {
+    input {
+      width: 100%;
+    }
+  }
+
+  .news-heading {
+    font-size: 35px;
+    line-height: 38px;
+  }
+
+  .method-heading {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .method-heading-side {
+    width: 100%;
+  }
+
+  .review-text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .review-heading {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    width: 100%;
+  }
+
+  .menu-buttons {
+    font-weight: 600 !important;
+    font-size: 12px !important;
+  }
+
+  .display-sm-none{
+    display: none !important;
+  }
+}
