@@ -4,9 +4,7 @@ import React from 'react'
 function PopularTags() {
     return (
         <Box>
-            <Grid2 className='sidebar-headings'>
-                Popular Tags
-            </Grid2>
+            <Grid2 className="side-headings">Popular Tags</Grid2>
             <Grid2>
                 {
                     [1, 2, 3, 4, 5].map((e) => {

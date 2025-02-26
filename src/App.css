@@ -1,3 +1,24 @@
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .div-center {
   display: flex;
   align-items: center;
@@ -762,23 +783,31 @@
 
 /* services page end  */
 
-/* width */
-::-webkit-scrollbar {
-  width: 6px;
+.side-headings {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.63px;
+  letter-spacing: 0%;
+  color: #000000;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+.blog-card-heading {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.63px;
+  letter-spacing: 0%;
+  color: #000000;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #afafaf;
-  border-radius: 12px;
+.blog-card-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+/* comon cards ends*/

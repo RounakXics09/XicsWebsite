@@ -25,14 +25,14 @@ function MainHeader() {
                 <Toolbar disableGutters>
                     <img src={Logo} alt="Logo" />
 
-                    <Box className="div-center header-menu-section" sx={{ flexGrow: 1 }}>
+                    <Box className="div-center header-menu-section" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'none', md: 'flex', lg: 'flex', xl: 'flex' } }}>
                         {pages.map((e, i) => (
                             <Button
                                 key={i}
                                 className='menu-buttons'
                                 sx={{ my: 2 }}
                             >
-                                <Link to={'/' + e.link} style={{textDecoration:'none', color:'#1C163C'}}>{e.name}</Link>
+                                <Link to={'/' + e.link} style={{ textDecoration: 'none', color: '#1C163C' }}>{e.name}</Link>
                             </Button>
                         ))}
                     </Box>
