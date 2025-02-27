@@ -835,6 +835,20 @@
 /* service details end */
 
 
+.faq-headings{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 62px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;  
+  padding-block: 50px;
+}
+
+/* faq end */
+
+
 @media only screen and (max-width: 768px) {
 
   .main-content-text-container {
@@ -905,6 +919,12 @@
   .menu-buttons {
     font-weight: 600 !important;
     font-size: 12px !important;
+  }
+
+  .faq-headings{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px; 
   }
 
   .display-sm-none{
