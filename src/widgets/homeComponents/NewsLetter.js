@@ -6,7 +6,7 @@ import { Email } from '@mui/icons-material'
 
 function NewsLetter() {
     return (
-        <Box className="div-center">
+        <Box className="div-center" sx={{py:5}}>
             <Grid2 container className='news-letter-container'>
                 <Grid2 item size={{ xs: 12, md: 9, lg: 9, xl: 9 }}>
                     <div className='news-heading'>

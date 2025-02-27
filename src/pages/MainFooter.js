@@ -20,12 +20,12 @@ function MainFooter() {
 
   return (
     <Box>
-      <Grid2 container sx={{ margin: '20px', paddingBottom: '20px', borderBottom: '1px solid #1767FE' }}>
-        <Grid2 item size={{ xs: 6, md: 4, lg: 4, xl: 4 }}>
+      <Grid2 container rowSpacing={3} sx={{ margin: '20px', paddingBottom: '20px', borderBottom: '1px solid #1767FE' }}>
+        <Grid2 item size={{ xs: 12, sm:12, md: 4, lg: 4, xl: 4 }}>
           <div style={{ paddingBottom: '15px' }}>
             <img src={Logo} alt="Logo" />
           </div>
-          <div className='footer-inner' style={{ width: '80%' }}>
+          <div className='footer-inner-side' style={{ width: '80%' }}>
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain.
           </div>
           <div>
@@ -36,7 +36,10 @@ function MainFooter() {
                   className='footer-menu-buttons'
                   sx={{ my: 2 }}
                 >
-                  <img src={page.link_url} alt="Logo" />
+                  <img src={page.link_url} alt="Logo" 
+                  style={{
+                    paddingRight:'10px',
+                    borderRight: i !== pages.length - 1 ? '2px solid #1767FE' : 'none'}} />
                 </div>
               ))}
             </Box>

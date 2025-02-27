@@ -7,7 +7,7 @@ import About2 from '../../assets/aboutimage2.svg'
 
 function PerfectSolution() {
     return (
-        <Box sx={{py:8}}>
+        <Box sx={{ py: 8 }}>
             <Grid2 container>
                 <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }}>
                     <div className='method-heading'>
@@ -32,19 +32,19 @@ function PerfectSolution() {
                     </div>
                 </Grid2>
                 <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
-                    <Grid2 container columnSpacing={2}>
-                        <Grid2 item size={{ xs: 12, md: 7, lg: 7, xl: 7 }}>
-                            <Grid2 container rowSpacing={2}>
-                                <Grid2 item size={{ xs: 12, md: 12, lg: 12, xl: 12 }}>
-                                    <img src={About} alt="Logo1" style={{width:'100%',height:'100%'}} />
-                                </Grid2>
-                                <Grid2 item size={{ xs: 12, md: 12, lg: 12, xl: 12 }}>
-                                    <img src={About1} alt="Logo1" style={{width:'100%',height:'100%'}} />
-                                </Grid2>
-                            </Grid2>
+                    <Grid2 container>
+                        <Grid2 item size={{ xs: 12, md: 8, lg: 8, xl: 8 }} className='about-image-container-two' sx={{ height: '435px' }}>
+                            <div>
+                                <img src={About} alt="Logo1" style={{ width: '100%', height: "100%" }} />
+                            </div>
+                            <div>
+                                <img src={About1} alt="Logo1" style={{ width: '100%', height: "100%" }} />
+                            </div>
                         </Grid2>
-                        <Grid2 item size={{ xs: 12, md: 5, lg: 5, xl: 5 }} style={{display:'flex'}}>
-                            <img src={About2} alt="Logo1" />
+                        <Grid2 item size={{ xs: 12, md: 4, lg: 4, xl: 4 }} className='about-image-container-one display-sm-none' sx={{ height: '435px' }}>
+                            <div>
+                                <img src={About2} alt="Logo1" style={{ width: '100%', height: "100%" }} />
+                            </div>
                         </Grid2>
                     </Grid2>
                 </Grid2>

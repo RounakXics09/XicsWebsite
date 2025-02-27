@@ -31,7 +31,7 @@ function BestMethod() {
           </div>
         </Grid2>
         <Grid2 item size={{ xs: 12, md: 6, lg: 6, xl: 6 }} className='side-heading-container'>
-          <div className='method-heading-side'>
+          <div className='method-heading-description'>
             But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete.
           </div>
         </Grid2>

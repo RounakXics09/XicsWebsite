@@ -11,51 +11,51 @@ export default function Faq() {
             <Grid2 container columnSpacing={5} rowSpacing={2}>
                 <Grid2 size={{ xs: 12,sm:12, md: 12, lg: 12, xl: 12 }} className="faq-headings">Frequently Answer & Questions</Grid2>
                 <Grid2 size={{ xs: 12,sm:12, md: 12, lg: 12, xl: 12 }}>
-                    <Accordion>
+                    <Accordion sx={{background:'#F8F7FF',boxShadow:'none'}}>
                         <AccordionSummary
                             // expandIcon={<ArrowDropDownIcon />}
 
                             aria-controls="panel2-content"
                             id="panel2-header"
                         >
-                            <Typography component="span">How to know status of a campaign?</Typography>
+                            <Typography component="span" sx={{color:'#5B5B5B',fontSize:'16.33px',fontWeight:'600'}}>How to know status of a campaign?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography>
+                            <Typography sx={{color:'#5D6C7C',fontSize:'18px',fontWeight:'400px'}}>
                                 Powerful project management tools for your companies of all sizes.
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid2>
                 <Grid2 size={{ xs: 12,sm:12, md: 12, lg: 12, xl: 12 }}>
-                    <Accordion>
+                    <Accordion sx={{background:'#F8F7FF',boxShadow:'none'}}>
                         <AccordionSummary
                             // expandIcon={<ArrowDropDownIcon />}
 
                             aria-controls="panel2-content"
                             id="panel2-header"
                         >
-                            <Typography component="span">How to know status of a campaign?</Typography>
+                            <Typography component="span" sx={{color:'#5B5B5B',fontSize:'16.33px',fontWeight:'600'}}>How to know status of a campaign?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography>
+                            <Typography sx={{color:'#5D6C7C',fontSize:'18px',fontWeight:'400px'}}>
                                 Powerful project management tools for your companies of all sizes.
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
                 </Grid2>
                 <Grid2 size={{ xs: 12,sm:12, md: 12, lg: 12, xl: 12 }}>
-                    <Accordion>
+                    <Accordion sx={{background:'#F8F7FF',boxShadow:'none'}}>
                         <AccordionSummary
                             // expandIcon={<ArrowDropDownIcon />}
 
                             aria-controls="panel2-content"
                             id="panel2-header"
                         >
-                            <Typography component="span">How to know status of a campaign?</Typography>
+                            <Typography component="span" sx={{color:'#5B5B5B',fontSize:'16.33px',fontWeight:'600'}}>How to know status of a campaign?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
-                            <Typography>
+                            <Typography sx={{color:'#5D6C7C',fontSize:'18px',fontWeight:'400px'}}>
                                 Powerful project management tools for your companies of all sizes.
                             </Typography>
                         </AccordionDetails>

@@ -1,4 +1,4 @@
-import { Box } from '@mui/material'
+import { Box, Grid2 } from '@mui/material'
 import React from 'react'
 import AboutMain from '../../assets/AboutMain.svg'
 import AboutSnake from '../../assets/AboutSnake.svg'
@@ -18,7 +18,7 @@ function DigitalProducts(props) {
             </div>
 
             <div className='div-between'>
-                    <img src={AboutSnake} alt="Logo1" style={{width:'auto',height:'184px',marginLeft:'-55px'}} />
+                    <img className='display-sm-none' src={AboutSnake} alt="Logo1" style={{width:'auto',height:'184px',marginLeft:'-55px'}} />
                 <div className='about-description'>
                     <div>
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -31,8 +31,43 @@ function DigitalProducts(props) {
                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                     </div>
                 </div>
-                    <img src={AboutSnake1} alt="Logo1" style={{width:'auto',height:'184px',marginRight:'-55px'}} />
+                    <img className='display-sm-none' src={AboutSnake1} alt="Logo1" style={{width:'auto',height:'184px',marginRight:'-55px'}} />
             </div>
+
+            <Grid2 container sx={{py:8}}>
+                <Grid2 item size={{ xs: 12, md: 3, lg: 3, xl: 3 }}>
+                    <div className='about-company-detail'>
+                        4.2m
+                    </div>
+                    <div className='about-company-detail-text'>
+                    There are many variations of passages of Lorem.
+                    </div>
+                </Grid2>
+                <Grid2 item size={{ xs: 12, md: 3, lg: 3, xl: 3 }}>
+                <div className='about-company-detail'>
+                        2017
+                    </div>
+                    <div className='about-company-detail-text'>
+                    There are many variations of passages of Lorem.
+                    </div>
+                </Grid2>
+                <Grid2 item size={{ xs: 12, md: 3, lg: 3, xl: 3 }}>
+                <div className='about-company-detail'>
+                        502
+                    </div>
+                    <div className='about-company-detail-text'>
+                    There are many variations of passages of Lorem.
+                    </div>
+                </Grid2>
+                <Grid2 item size={{ xs: 12, md: 3, lg: 3, xl: 3 }}>
+                <div className='about-company-detail'>
+                        35+
+                    </div>
+                    <div className='about-company-detail-text'>
+                    There are many variations of passages of Lorem.
+                    </div>
+                </Grid2>
+            </Grid2>
         </Box>
     )
 }

@@ -25,7 +25,7 @@ function ClientReview() {
       <Grid2 container>
         <Grid2 item size={{ xs: 12,sm:12, md: 8, lg: 8, xl: 8 }} className='review-text-container'>
           <div>
-            <img src={FullEmp} alt="Logo1" />
+            <img src={FullEmp} alt="Logo1" style={{width:'100%',height:'100%'}} />
           </div>
           <div style={{ maxWidth: '369px', paddingInline: '30px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
 

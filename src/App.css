@@ -159,6 +159,16 @@
   display: flex;
 }
 
+.footer-inner-side {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #7F7A9A;
+  padding-bottom: 15px;
+}
+
 .footer-inner {
   font-family: Poppins;
   font-weight: 500;
@@ -172,7 +182,7 @@
 .footer-menu-buttons {
   display: flex;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .end-footer {
@@ -436,6 +446,16 @@
   color: #7F7A9A;
   width: 80%;
   padding-top: 50px;
+}
+
+.method-heading-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+  width: 80%;
 }
 
 .method-btn-container {
@@ -722,6 +742,39 @@
   color: #7F7A9A;
 }
 
+.about-image-container-two {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-image-container-one {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  padding-left: 15px;
+}
+
+.about-company-detail {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 29px;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.about-company-detail-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+  padding-top: 20px;
+}
+
 /* about page end */
 
 .pricing-card-container {}
@@ -737,6 +790,23 @@
   padding: 30px 20px 30px 20px;
 }
 
+.btn-plan {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #715DE3;
+  color: #fff;
+  border-radius: 8px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-top: 10px;
+}
+
 .plan-text {
   font-family: Inter;
   font-weight: 600;
@@ -744,6 +814,14 @@
   line-height: 19.36px;
   letter-spacing: 2%;
   color: #1D2127;
+  padding-top: 20px;
+}
+
+.price-div-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .plan-text-price {
@@ -762,6 +840,7 @@
   line-height: 20.57px;
   letter-spacing: 2%;
   color: #1D2127;
+  padding-top: 10px;
 }
 
 .plan-text-desc {
@@ -771,6 +850,7 @@
   line-height: 14.52px;
   letter-spacing: 0%;
   color: #B9BEC1;
+  text-align: center;
 }
 
 .plan-text-detail {
@@ -780,7 +860,8 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0%;
-  color: #1D2127
+  color: #1D2127;
+  padding-block: 8px;
 }
 
 /* services page end  */
@@ -792,6 +873,7 @@
   line-height: 26.63px;
   letter-spacing: 0%;
   color: #000000;
+  padding-left: 12px;
 }
 
 .blog-card-heading {
@@ -834,19 +916,41 @@
 
 /* service details end */
 
+.side-menus-div {
+  border-radius: 15px;
+  border: 1px solid #dfdffb;
+  padding-top: 12px;
+}
 
-.faq-headings{
+.chips-container{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.tags-chips {
+  background: #F4F2FD;
+  border-radius: 9px;
+  color: #7F7A9A;
+  padding: 10px;
+}
+
+/* side menus */
+
+.faq-headings {
   font-family: Inter;
   font-weight: 700;
   font-size: 51px;
   line-height: 62px;
   letter-spacing: 0%;
   text-align: center;
-  color: #000000;  
+  color: #000000;
   padding-block: 50px;
 }
 
 /* faq end */
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -894,6 +998,15 @@
     line-height: 38px;
   }
 
+  .news-letter-container {
+    background: #9786F8;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+  }
+
   .method-heading {
     font-weight: 700;
     font-size: 35px;
@@ -903,6 +1016,12 @@
   .method-heading-side {
     width: 100%;
   }
+
+  .method-heading-description {
+    width: 100%;
+    padding-top: 50px;
+  }
+
 
   .review-text-container {
     display: flex;
@@ -921,13 +1040,18 @@
     font-size: 12px !important;
   }
 
-  .faq-headings{
+  .faq-headings {
     font-weight: 700;
     font-size: 35px;
-    line-height: 42px; 
+    line-height: 42px;
   }
 
-  .display-sm-none{
+  .team-heading-side {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .display-sm-none {
     display: none !important;
   }
 }

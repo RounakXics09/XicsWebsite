@@ -8,75 +8,55 @@ import Avatar from '@mui/material/Avatar';
 import Typography from '@mui/material/Typography';
 import { Box, Grid2 } from '@mui/material';
 
+const posts = [1,2,3]
+
 function PopularPosts() {
     return (
-        <Box>
-            <Grid2 className="side-headings">Category</Grid2>
-            <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-                <ListItem alignItems="flex-start">
-                    <ListItemAvatar>
-                        <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
-                    </ListItemAvatar>
-                    <ListItemText
-                        primary="Brunch this weekend?"
-                        secondary={
-                            <React.Fragment>
-                                <Typography
-                                    component="span"
-                                    variant="body2"
-                                    sx={{ color: 'text.primary', display: 'inline' }}
-                                >
-                                    Ali Connors
-                                </Typography>
-                                {" — I'll be in your neighborhood doing errands this…"}
-                            </React.Fragment>
-                        }
-                    />
-                </ListItem>
-                <Divider variant="inset" component="li" />
-                <ListItem alignItems="flex-start">
-                    <ListItemAvatar>
-                        <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-                    </ListItemAvatar>
-                    <ListItemText
-                        primary="Summer BBQ"
-                        secondary={
-                            <React.Fragment>
-                                <Typography
-                                    component="span"
-                                    variant="body2"
-                                    sx={{ color: 'text.primary', display: 'inline' }}
-                                >
-                                    to Scott, Alex, Jennifer
-                                </Typography>
-                                {" — Wish I could come, but I'm out of town this…"}
-                            </React.Fragment>
-                        }
-                    />
-                </ListItem>
-                <Divider variant="inset" component="li" />
-                <ListItem alignItems="flex-start">
-                    <ListItemAvatar>
-                        <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
-                    </ListItemAvatar>
-                    <ListItemText
-                        primary="Oui Oui"
-                        secondary={
-                            <React.Fragment>
-                                <Typography
-                                    component="span"
-                                    variant="body2"
-                                    sx={{ color: 'text.primary', display: 'inline' }}
-                                >
-                                    Sandra Adams
-                                </Typography>
-                                {' — Do you have Paris recommendations? Have you ever…'}
-                            </React.Fragment>
-                        }
-                    />
-                </ListItem>
-            </List>
+        <Box sx={{ py: 4 }}>
+            <Grid2 className='side-menus-div'>
+                <Grid2 className="side-headings">Popular Posts</Grid2>
+                <List sx={{ width: '100%' }}>
+                    {posts.map((value, i) => {
+                        return (
+                            <ListItem alignItems="flex-start" sx={{
+                                borderBottom: i !== posts.length - 1 ? '1px solid #DFDFFB' : 'none',
+                                borderTop: i === 0 ? '1px solid #DFDFFB' : 'none'
+                            }}>
+                                <ListItemAvatar>
+                                    <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                                </ListItemAvatar>
+                                <ListItemText
+                                    primary={
+                                        <React.Fragment>
+                                            <Typography
+                                                component="span"
+                                                variant="body2"
+                                                sx={{ color: 'text.secondary', display: 'inline' }}
+                                            >
+                                                15 Feb, 2025
+                                            </Typography>
+                                        </React.Fragment>
+                                    }
+                                    secondary={
+                                        <React.Fragment>
+                                            <Typography
+                                                component="span"
+                                                variant="body2"
+                                                sx={{ color: 'text.primary', display: 'inline' }}
+                                            >
+                                                How much dose it cost to
+                                                start and run a website?
+                                            </Typography>
+                                        </React.Fragment>
+                                    }
+                                />
+                            </ListItem>
+                        )
+                    })}
+                </List>
+            </Grid2>
         </Box>
+
     );
 }
 
