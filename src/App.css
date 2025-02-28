@@ -498,6 +498,14 @@
 .taskcard-container {
   padding: 20px;
   width: 80%;
+  background: #ffffff;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.taskcard-container:hover {
+  padding: 20px;
+  width: 80%;
   background: #F9F6FD;
   border-radius: 25px;
   cursor: pointer;
@@ -937,6 +945,116 @@
   line-height: 29px;
   letter-spacing: -2%;
   color: #7F7A9A;
+}
+
+.success-con {
+  background: #F4F2FD;
+  padding: 30px;
+  border-radius: 15px;
+  border-left: 15px solid #715DE3;
+}
+
+.service-con-description {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: -2%;
+}
+
+.btn-free-comment {
+  height: 57px;
+  max-width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #9888F4 0%, #715DE3 100%);
+  color: #fff;
+  padding-inline: 20px;
+  border-radius: 12px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+
+.comment-form-field {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+  padding: 16.5px 14px !important;
+}
+
+.comment-form-text-field {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+  padding: 16.5px 0px 0px 14px !important;
+}
+
+.comment-form-field input {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+  padding: 0px;
+}
+
+.comment-form-field input::placeholder {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+}
+
+.comment-form-field textarea {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+  padding: 16.5px 14px !important;
+}
+
+.comment-form-field fieldset {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+  border: 0px !important;
+}
+
+.comment-form-field::-webkit-input-placeholder {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B !important;
+}
+
+.checkbox-text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16.33px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+  color: #5B5B5B;
 }
 
 /* comon cards ends*/
