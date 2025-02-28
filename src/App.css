@@ -235,6 +235,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.sponser-image-inner {
+  padding: 20px 10px;
 }
 
 /* sponser end */
@@ -894,6 +900,45 @@
   color: #7F7A9A;
 }
 
+.blog-date {
+  background: #ffffff;
+  color: #715DE3;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+  letter-spacing: -2%;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  .text-span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: -2%;
+    color: #715DE3;
+  }
+}
+
+.readmore {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #715DE3;
+}
+
+.no-comments {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: -2%;
+  color: #7F7A9A;
+}
+
 /* comon cards ends*/
 
 .service-detail-heading {
@@ -922,17 +967,26 @@
   padding-top: 12px;
 }
 
-.chips-container{
+.chips-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 100%;
+  padding: 12px 6px;
+  border-top: 1px solid #DFDFFB;
+  margin-top: 10px;
 }
 
 .tags-chips {
   background: #F4F2FD;
   border-radius: 9px;
   color: #7F7A9A;
-  padding: 10px;
+  padding: 5px 12px;
+  margin: 6px 6px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: -2%;
 }
 
 /* side menus */
@@ -1049,6 +1103,15 @@
   .team-heading-side {
     width: 100%;
     padding-top: 30px;
+  }
+
+  .sponsers-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px;
   }
 
   .display-sm-none {

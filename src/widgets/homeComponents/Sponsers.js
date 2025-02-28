@@ -19,16 +19,16 @@ function Sponsers() {
         We are blessed to work with leading brands & Companies
       </div>
       <div className='sponsers-image'>
-        <div>
+        <div className='sponser-image-inner'>
           <img src={Logo1} alt="Logo1" style={{width:'100%',height:'100%'}} />
         </div>
-        <div>
+        <div className='sponser-image-inner'>
           <img src={Logo2} alt="Logo2" style={{width:'100%',height:'100%'}} />
         </div>
-        <div>
+        <div className='sponser-image-inner'>
           <img src={Logo3} alt="Logo3" style={{width:'100%',height:'100%'}} />
         </div>
-        <div>
+        <div className='sponser-image-inner'>
           <img src={Logo4} alt="Logo4" style={{width:'100%',height:'100%'}} />
         </div>
       </div>
