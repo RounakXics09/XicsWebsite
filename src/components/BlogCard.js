@@ -1,6 +1,8 @@
 import { Grid2 } from '@mui/material'
 import React from 'react'
 import BlogImage from '../assets/BlogImage.svg'
+import ReadImage from '../assets/arrowicon.svg'
+import MessageImage from '../assets/message-icon.svg'
 
 function BlogCard() {
   return (
@@ -23,8 +25,10 @@ function BlogCard() {
       <Grid2 sx={{ py: 2 }} className="div-between" >
         <div className='readmore'>
           Read More
+          <img src={ReadImage} alt="Logo1" style={{ width: '28px', height: '100%',paddingLeft:'10px' }} />
         </div>
         <div className='no-comments'>
+          <img src={MessageImage} alt="Logo1" style={{ width: '18px', height: '100%',paddingRight:'10px' }} />
           No Comments
         </div>
       </Grid2>

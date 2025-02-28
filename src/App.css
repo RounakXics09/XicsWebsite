@@ -930,6 +930,11 @@
 }
 
 .readmore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   font-family: Inter;
   font-weight: 500;
   font-size: 16px;
@@ -939,6 +944,11 @@
 }
 
 .no-comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
   font-family: Inter;
   font-weight: 500;
   font-size: 16px;
