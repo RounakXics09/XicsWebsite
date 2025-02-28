@@ -13,7 +13,7 @@ function ClientReview() {
             <span style={{ paddingRight: '10px' }} >Take A Look At Some Of Our Amazing Past Clients</span>
             <span style={{ position: 'relative' }}>
               Review
-              <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
+              <span className='text-overflow-border-yellow-line'></span>
             </span>
           </div>
         </Grid2>

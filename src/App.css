@@ -87,6 +87,27 @@
   height: 115vh;
 }
 
+.text-overflow-border-yellow-line-10 {
+  background: #FFDC60;
+  height: 10px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  z-index: -1;
+}
+
+.text-overflow-border-yellow-line {
+  background: #FFDC60;
+  height: 10px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+  z-index: -1;
+}
 
 .header {
   background: #fff !important;
@@ -1136,6 +1157,28 @@
 
 
 @media only screen and (max-width: 768px) {
+
+  .text-overflow-border-yellow-line-10 {
+    background: #FFDC60;
+    height: 5px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    z-index: -1;
+  }
+  
+  .text-overflow-border-yellow-line {
+    background: #FFDC60;
+    height: 5px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    z-index: -1;
+  }
 
   .main-content-text-container {
     width: 90%;

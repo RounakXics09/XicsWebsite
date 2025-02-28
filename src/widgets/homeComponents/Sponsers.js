@@ -9,10 +9,10 @@ function Sponsers() {
   return (
     <Box className="sponser-container">
       <div className='our-sponser'>
-        <span style={{paddingRight:'10px'}}>Our</span>
-        <span style={{position:'relative'}}>
+        <span style={{ paddingRight: '10px' }}>Our</span>
+        <span style={{ position: 'relative' }}>
           Sponsors
-          <span style={{ background: '#FFDC60', height: '10px', width: '100%',display:'flex',position:'absolute',right:0,bottom:'10px',zIndex:'-1' }}></span>
+          <span className='text-overflow-border-yellow-line-10'></span>
         </span>
       </div>
       <div className='our-sponser-text'>
@@ -20,16 +20,16 @@ function Sponsers() {
       </div>
       <div className='sponsers-image'>
         <div className='sponser-image-inner'>
-          <img src={Logo1} alt="Logo1" style={{width:'100%',height:'100%'}} />
+          <img src={Logo1} alt="Logo1" style={{ width: '100%', height: '100%' }} />
         </div>
         <div className='sponser-image-inner'>
-          <img src={Logo2} alt="Logo2" style={{width:'100%',height:'100%'}} />
+          <img src={Logo2} alt="Logo2" style={{ width: '100%', height: '100%' }} />
         </div>
         <div className='sponser-image-inner'>
-          <img src={Logo3} alt="Logo3" style={{width:'100%',height:'100%'}} />
+          <img src={Logo3} alt="Logo3" style={{ width: '100%', height: '100%' }} />
         </div>
         <div className='sponser-image-inner'>
-          <img src={Logo4} alt="Logo4" style={{width:'100%',height:'100%'}} />
+          <img src={Logo4} alt="Logo4" style={{ width: '100%', height: '100%' }} />
         </div>
       </div>
     </Box>

@@ -13,7 +13,7 @@ function OurPricing() {
                     <span style={{ paddingRight: '10px' }} >Our</span>
                     <span style={{ position: 'relative' }}>
                         Pricing
-                        <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
+                        <span className='text-overflow-border-yellow-line'></span>
                     </span>
                     <span style={{ paddingRight: '10px' }} >Plan</span>
                 </div>

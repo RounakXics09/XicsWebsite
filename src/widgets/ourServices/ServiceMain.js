@@ -12,7 +12,7 @@ function ServiceMain() {
                         <span style={{ paddingRight: '10px' }}>We Boost The Growth For  </span>
                         <span style={{ position: 'relative' }}>
                             Startup
-                            <span style={{ background: '#FFDC60', height: '10px', width: '100%', display: 'flex', position: 'absolute', right: 0, bottom: '8px', zIndex: '-1' }}></span>
+                            <span className='text-overflow-border-yellow-line'></span>
                         </span>
                         <span style={{ paddingRight: '10px' }}>to Fortune 100 Companies</span>
                     </div>
