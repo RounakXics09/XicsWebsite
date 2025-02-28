@@ -28,13 +28,13 @@ function Category() {
                                 key={value}
                                 secondaryAction={
                                     <IconButton edge="end" aria-label="comments">
-                                        <KeyboardDoubleArrowRightIcon  />
+                                        <KeyboardDoubleArrowRightIcon sx={{color:'#715DE3'}} />
                                     </IconButton>
                                 }
                                 disablePadding
                             >
                                 <ListItemButton role={undefined} dense>
-                                    <ListItemText id={labelId} primary={'Task Management'} />
+                                    <ListItemText id={labelId} sx={{color:'#7F7A9A',fontSize:'15px', fontWeight:'500'}} primary={'Task Management'} />
                                 </ListItemButton>
                             </ListItem>
                         );
