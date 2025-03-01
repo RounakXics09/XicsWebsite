@@ -7,6 +7,7 @@ import LatestWork from '../widgets/homeComponents/LatestWork'
 import OurTeam from '../widgets/homeComponents/OurTeam'
 import ClientReview from '../widgets/homeComponents/ClientReview'
 import NewsLetter from '../widgets/homeComponents/NewsLetter'
+import OurClients from '../widgets/homeComponents/OurClients'
 import Emp1 from '../assets/emp1.svg'
 import Emp2 from '../assets/emp2.svg'
 import Emp3 from '../assets/emp3.svg'
@@ -37,6 +38,7 @@ function Home() {
       <BestMethod />
       <LatestWork />
       <OurTeam data={{pages1}} />
+      <OurClients />
       <ClientReview />
       <NewsLetter />
     </Box>
